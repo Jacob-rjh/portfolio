@@ -1,0 +1,102 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- names ---- */
+#kyligence {background:url('../images/works/kyligence.jpg');background-size:cover}
+#upcreative {background:url('../images/works/ibservices-consulting.jpg');background-size:cover}
+#logo-upcreative {background:url('../images/works/logo.png')center;background-size:cover}
+#trustylabs {background:url('../images/works/kyligence.jpg');background-size:cover}
+#scriptura {background:url('../images/works/kyligence.jpg');background-size:cover}
+#scriptura-cv {background:url('../images/works/carte-de-visite.png')center no-repeat;background-size:100%}
+#ibservices-cv {background:url('../images/works/carte-de-visite.png') center;background-size:100%}
+#affiche-mark-com {background:url('../images/works/conception-1.jpg');background-size:100%}
+#newsletter {background:url('../images/works/mailing.jpg');background-size:100%}
+#affiche-serigraphie {background:url('../images/works/conception-2.jpg');background-size:100%}
+#affiche-miratia {background:url('../images/works/miratia.png')center;background-size:100%}
+
+/* ---- isotope ---- */
+
+.grid {
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 32.3%;
+  height: 370px;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  background: #888;
+  color: #262524;
+}
+
+@media screen and (max-width: 1337px) {
+.element-item {
+  width: 32%;
+  height: 300px;
+}
+}
+@media screen and (max-width: 1022px) {
+.element-item {
+  width: 31.5%;
+  height: 280px;
+}
+}
+@media screen and (max-width: 960px) {
+.element-item {
+  width: 48%;
+}
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  left: 10px;
+  top: 0px;
+  color: white;
+}
+
+.element-item .number {
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+.element-item.webdesign          { background: #F00; background: hsl(   0, 100%, 50%); }
+.element-item.logodesign  { background: #F80; background: hsl(  36, 100%, 50%); }
+.element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
+.element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
+.element-item.graphicdesign   { background: #0F8; background: hsl( 144, 100%, 50%); }
+.element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.element-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
+.element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
