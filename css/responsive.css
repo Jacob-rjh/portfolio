@@ -228,11 +228,11 @@
         display: block;
         overflow: visible !important;
         width: 100% !important;
-        background-color: #000;
+        background-color: #ddd;
         height: 400px;
     }
     nav.active .jspContainer {
-        background-color: #000;
+        background-color: #dddddd;
         height: 380px !important;
         width: 100% !important;
     }
